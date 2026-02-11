@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['update']))
-  {
+  
 $email=$_POST['email'];
 $mobile=$_POST['mobile'];
 $newpassword=md5($_POST['newpassword']);
